@@ -9,9 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "13.5.1",
-    "next": "13.5.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@openzeppelin/contracts": "^4.7.3",
+    "axios": "^0.27.2",
+    "dotenv": "^16.1.4",
+    "ether": "^0.0.9",
+    "framer-motion": "^7.2.1",
+    "ipfs-http-client": "^58.0.0",
+    "lockdown": "^0.0.8-dev",
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.2",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.16.0",
+    "web3modal": "^1.9.9"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.17.3"
   }
 }
